@@ -1,2 +1,11 @@
 bot.username=example_bot
 bot.token=123456:Your-Token_Example
+
+#db related settings
+spring.jpa.hibernate.ddl-auto=update
+spring.datasource.url=jdbc:mysql://IP_address:port/db_name
+spring.datasource.username=root_example
+spring.datasource.password=password_example
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+spring.jpa.database-platform=org.hibernate.dialect.MySQL8Dialect
+spring.jpa.show-sql=true
